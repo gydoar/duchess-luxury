@@ -1,9 +1,16 @@
 
-
-<div class="copyright">
-	<p>Hecho con&nbsp;<img width="8" src="<?php bloginfo('template_url' ); ?>/library/img/corazon.png" alt="">&nbsp;por <a target="_blank" href="http://suwwweb.com">Suwwweb</a></p>
-</div>
-
+<footer class="color__black">
+	<div class="contact__footer">
+		<div class="container">
+			<h3>(+1) 3134401185 - 3134401185</h3>
+			<a href="mailto:scorts@duchessluxuryscorts.com">scorts@duchessluxuryscorts.com</a>
+		</div>
+		
+	</div>
+	<div class="copyright">
+		<p>&copy; <?php bloginfo('name' ); ?> &nbsp;HECHO CON&nbsp;&nbsp;<img width="8" src="<?php bloginfo('template_url' ); ?>/library/img/corazon.png" alt="">&nbsp;&nbsp;POR <a target="_blank" href="http://suwwweb.com">&nbsp;SUWWWEB S.A.S</a></p>
+	</div>
+</footer>
 
 <!-- script -->
 

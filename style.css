@@ -108,6 +108,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cca46e2b', e
 .btn--oro:hover{
 	color: #000000;
 }
+.color__black{
+	background-color: #000000;
+}
 nav{
 	background-color: #000000;
 	text-align: center;
@@ -152,21 +155,70 @@ nav{
 				-moz-background-size: 100%;
 	background-size: cover;
 }
+.welcome{
+	margin-top: 60px;
+	text-align: center;
+	color: #ffffff;
+}
+	.welcome h3{
+		letter-spacing: 0.5px;
+		color: #fcba2f;
+		font-weight: 400;
+		font-size: 24px;
+		margin-bottom: 0px;
+	}
+	.ornament{
+		background-image: url(library/img/ornament.png);
+		background-repeat: repeat-x;
+		min-height: 18px;
+		margin-top: 5px;
+	}
+.contact__footer{
+	padding: 20px 0px;
+	text-align: center;
+	margin-bottom: 2px;
+	background: rgb(251,184,41); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(251,184,41,1) 0%, rgba(167,123,27,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(251,184,41,1)), color-stop(100%,rgba(167,123,27,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(251,184,41,1) 0%,rgba(167,123,27,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(251,184,41,1) 0%,rgba(167,123,27,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(251,184,41,1) 0%,rgba(167,123,27,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(251,184,41,1) 0%,rgba(167,123,27,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbb829', endColorstr='#a77b1b',GradientType=0 ); /* IE6-9 */
 
-
-
+}
+	.contact__footer h3{
+		font-weight: 700;
+		font-size: 20px;
+		letter-spacing: 2px;
+		margin: 0px;
+	}
+	.contact__footer a{
+		text-decoration: none;
+		color: #000000;
+	}
+	.contact__footer a:hover{
+		color: rgba(0,0,0,0.7);
+	}
 footer{}
 
 .copyright{
-    background: #32a7d1;
-    font-size: 12px;
+	padding: 10px 0px;
+	border-top: 2px solid #fbb829;
+    background: #000000;
+    font-size: 10px;
 	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
 }
-.copyright a{
-    color: #000000;
-	text-decoration: none;
-	
-}
+	.copyright p{
+		margin: 0px;
+	}
+	.copyright a{
+	    color: #ffffff;
+		text-decoration: none;
+		
+	}
 
 
 img{
@@ -195,5 +247,11 @@ img{
 	@media only screen and (max-width: 479px) {
 		.marco{
 			background: none;
+		}
+		.welcome h3{
+			font-size: 18px;
+		}
+		.welcome p{
+			font-size: 14px;
 		}
 	}

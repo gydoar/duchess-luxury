@@ -38,7 +38,7 @@
 <nav>
 	<ul class="container">
 		<li><a href="#">&nbsp;&nbsp;Home&nbsp;</a></li>
-		<li><a href="#">&nbsp;&nbsp;Scort&nbsp;</a></li>
+		<li><a href="#">&nbsp;&nbsp;Scorts&nbsp;</a></li>
 		<li><a href="#">&nbsp;&nbsp;Contact&nbsp;</a></li>
 	</ul>
 </nav>
