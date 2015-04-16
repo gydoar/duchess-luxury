@@ -15,6 +15,9 @@
 			</div>
 
 		</div>
-	</div>
 
-<?php get_footer(); ?>
+		<div class="warning__btn container">
+			<a class="btn--oro" href="#">ACEPT</a>
+			<a class="btn--oro" href="#">NOT ACEPT</a>
+		</div>
+	</div>
