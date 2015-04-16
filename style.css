@@ -109,7 +109,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cca46e2b', e
 	color: #000000;
 }
 .color__black{
-	background-color: #000000;
+	background: #000000 url(library/img/bg-transparent.png);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 100%;
+	width: 100%;
+	background-size: 100%;
+		-o-background-size: 100%;
+			-webkit-background-size: 100%;
+				-moz-background-size: 100%;
+	background-size: cover;
 }
 nav{
 	background-color: #000000;
@@ -172,6 +182,22 @@ nav{
 		background-repeat: repeat-x;
 		min-height: 18px;
 		margin-top: 5px;
+	}
+.cuadro--top--model{
+	background: url(library/img/cuadro-top-model.png);
+	background-repeat: no-repeat;
+	min-height: 1292px;
+	background-position: center center;
+	color: #ffffff;
+}
+	.cuadro--top--model div{
+		padding-top: 60px;
+	}
+	.cuadro--top--model img{
+	background-image: -webkit-linear-gradient(bottom, rgb(115,63,30) 33%, rgb(232,208,77) 67%);
+	background-image: -o-linear-gradient(bottom, rgb(115,63,30) 33%, rgb(232,208,77) 67%);
+	background-image: linear-gradient(to top, rgb(115,63,30) 33%, rgb(232,208,77) 67%);
+	padding: 2px;
 	}
 .contact__footer{
 	padding: 20px 0px;
