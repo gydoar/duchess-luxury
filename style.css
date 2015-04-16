@@ -108,6 +108,53 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cca46e2b', e
 .btn--oro:hover{
 	color: #000000;
 }
+nav{
+	background-color: #000000;
+	text-align: center;
+	padding-top: 10px;
+}
+
+		nav ul li{
+			display: inline-block;
+
+		}
+			nav ul li a{
+				padding: 0px 5px;
+				color: #ffffff;
+				text-decoration: none;
+				padding: 0px 10px;
+			}
+			nav ul li a:hover{
+				color: #ffffff;
+				padding: 0px 10px;
+
+			}
+
+			nav ul li a:hover:before{
+				content:"  " url(library/img/icon-diamante.png);
+				padding: 0px -5px;
+			}
+			nav ul li a:hover:after{
+				content:"  " url(library/img/icon-diamante.png);
+				padding: 0px -5px;
+			}
+
+.banner__1{
+	position: relative;
+	background-image: url(library/img/bg.png);
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 484px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-o-background-size: 100%;
+				-moz-background-size: 100%;
+	background-size: cover;
+}
+
+
+
 footer{}
 
 .copyright{
