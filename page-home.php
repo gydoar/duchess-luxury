@@ -104,6 +104,12 @@
 		</div>
 	</div>
 
+	<div class="container">
+		<div class="btn-see-more">
+			<a href="#">SEE MORE</a>
+		</div>
+	</div>
+
 </div>
 
 <?php get_footer(); ?>

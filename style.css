@@ -226,6 +226,21 @@ nav{
 	.btn-portfolio a:hover{
 		color: #e5a826;
 	}
+.btn-see-more{
+	background-image: url(library/img/btn-see-more.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 50px;
+	text-align: center;
+	padding-top: 20px;
+	margin: 40px 0px;
+}
+	.btn-see-more a{
+		color: #000000;
+		text-decoration: none;
+		font-size: 18px;
+		font-weight: 700;
+	}
 .contact__footer{
 	padding: 20px 0px;
 	text-align: center;
