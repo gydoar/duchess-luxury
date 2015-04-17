@@ -148,11 +148,11 @@ nav{
 
 			}
 
-			nav ul li a:hover:before{
+			nav ul li a:hover:before,nav ul li a:active:before,nav ul li a:focus:before{
 				content:"  " url(library/img/icon-diamante.png);
 				padding: 0px -5px;
 			}
-			nav ul li a:hover:after{
+			nav ul li a:hover:after,nav ul li a:active:after,nav ul li a:focus:after{
 				content:"  " url(library/img/icon-diamante.png);
 				padding: 0px -5px;
 			}
@@ -293,6 +293,17 @@ nav{
 	}
 		.content__single li span{
 			color: #ffffff;
+		}
+		.thumb_single{
+			margin-top: 30px;
+		}
+		.thumb_single img{
+			display: inline-block;
+			vertical-align: top;
+			margin: 0px 10px;
+			color: none;
+			text-decoration: none;
+			list-style: none;
 		}
 .contact__footer{
 	padding: 20px 0px;

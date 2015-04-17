@@ -130,7 +130,7 @@ function register_scortstaxonomies() {
 		'show_tagcloud' 	=> false,
 		'show_in_nav_menus' => true,
 		'_builtin' 			=> false,
-		'rewrite' 			=> array('slug' => 'porfoliotax','with_front' => FALSE ),
+		'rewrite' 			=> array('slug' => 'scortstax','with_front' => FALSE ),
 	 );
 	register_taxonomy('scortstaxonomies', $pages, $args);
 }

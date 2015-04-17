@@ -157,50 +157,62 @@
 						</div>
 					</div>
 					<!-- galeria de 4 imagenes -->
-					<div class="twelve columns">
-						<div class="three columns">
-							<a class="twelve columns" href="#">
-								<?php if (class_exists('MultiPostThumbnails')) :
-							    MultiPostThumbnails::the_post_thumbnail(
-							        get_post_type(),
-							        'secondary-image',
-							        set_post_thumbnail_size( 145, 215, true )
-							    );
-							endif; ?>
-							</a>
+					<div class="twelve columns thumb_single">
+						
 							
-						</div>
+								<?php if (class_exists('MultiPostThumbnails')) :
+								    MultiPostThumbnails::the_post_thumbnail(
+								        get_post_type(),
+								        'secondary-image',
+								        set_post_thumbnail_size( 155, 215, true )
+								    );
+								endif; ?>
+								
+						
 
-						<div class="three columns">
-							<?php if (class_exists('MultiPostThumbnails')) :
-							    MultiPostThumbnails::the_post_thumbnail(
-							        get_post_type(),
-							        'three-image',
-							        set_post_thumbnail_size( 145, 215, true )
-							    );
-							endif; ?>
-						</div>
+						
+							
+								<?php if (class_exists('MultiPostThumbnails')) :
+								    MultiPostThumbnails::the_post_thumbnail(
+								        get_post_type(),
+								        'three-image',
+								        set_post_thumbnail_size( 155, 215, true )
+								    );
+								endif; ?>
+							
+						
 
-						<div class="three columns">
-							<?php if (class_exists('MultiPostThumbnails')) :
-							    MultiPostThumbnails::the_post_thumbnail(
-							        get_post_type(),
-							        'four-image',
-							        set_post_thumbnail_size( 145, 215, true )
-							    );
-							endif; ?>
-						</div>
+						
+							
+								<?php if (class_exists('MultiPostThumbnails')) :
+								    MultiPostThumbnails::the_post_thumbnail(
+								        get_post_type(),
+								        'four-image',
+								        set_post_thumbnail_size( 155, 215, true )
+								    );
+								endif; ?>
+							
+						
 
-						<div class="three columns">
-							<?php if (class_exists('MultiPostThumbnails')) :
-							    MultiPostThumbnails::the_post_thumbnail(
-							        get_post_type(),
-							        'five-image',
-							        set_post_thumbnail_size( 145, 215, true )
-							    );
-							endif; ?>
-						</div>
+						
+							
+								<?php if (class_exists('MultiPostThumbnails')) :
+								    MultiPostThumbnails::the_post_thumbnail(
+								        get_post_type(),
+								        'five-image',
+								        set_post_thumbnail_size( 155, 215, true )
+								    );
+								endif; ?>
+							
+						
 					</div>
+				</div>
+			</div>
+
+			<!-- Buttom back -->
+			<div class="container">
+				<div class="btn-see-more">
+					<a href="#">BACK</a>
 				</div>
 			</div>
 		</div>
