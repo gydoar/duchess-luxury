@@ -57,10 +57,15 @@ header{
 .line__oro{
 	border-bottom: 2px solid #e5a928;
 	padding-top: 3px;
-
+}
+.line__oro_2{
+	border-bottom: 2px solid #e5a928;
+}
+.line__oro_3{
+	border-bottom: 1.5px solid #e5a928;
 }
 .marco{
-	background-image: url(library/img/marco.png);
+	background: url(library/img/marco.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	min-height: 385px;
@@ -240,6 +245,39 @@ nav{
 		text-decoration: none;
 		font-size: 18px;
 		font-weight: 700;
+	}
+
+.marco-single{
+	background: url(library/img/marco-scorts.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 1023px;
+	margin-top: 80px;
+	text-align: center;
+	padding-top: 60px;
+	color: #ffffff;
+}
+.content__single{
+	margin-top: 60px;
+}
+	.content__single img{
+		background-image: -webkit-linear-gradient(bottom, rgb(115,63,30) 33%, rgb(232,208,77) 67%);
+		background-image: -o-linear-gradient(bottom, rgb(115,63,30) 33%, rgb(232,208,77) 67%);
+		background-image: linear-gradient(to top, rgb(115,63,30) 33%, rgb(232,208,77) 67%);
+		padding: 3px;
+	}
+	.content__single h3{
+		color: #fbb829;
+		font-weight: 700;
+		font-size: 34px;
+		letter-spacing: .7px;
+		margin-bottom: 0px;
+	}
+	.content__single h3:before{
+		content: ''url(library/img/icon-izq.png);
+	}
+	.content__single h3:after{
+		content: ''url(library/img/icon-der.png);
 	}
 .contact__footer{
 	padding: 20px 0px;

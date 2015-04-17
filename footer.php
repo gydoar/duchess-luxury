@@ -8,7 +8,7 @@
 		
 	</div>
 	<div class="copyright">
-		<p>&copy; <?php bloginfo('name' ); ?> &nbsp;HECHO CON&nbsp;&nbsp;<img width="8" src="<?php bloginfo('template_url' ); ?>/library/img/corazon.png" alt="">&nbsp;&nbsp;POR <a target="_blank" href="http://suwwweb.com">&nbsp;SUWWWEB S.A.S</a></p>
+		<p>&copy; <?php bloginfo('name' ); ?> &nbsp;- &nbsp;HECHO CON&nbsp;&nbsp;<img width="8" src="<?php bloginfo('template_url' ); ?>/library/img/corazon.png" alt="">&nbsp;&nbsp;POR <a target="_blank" href="http://suwwweb.com">&nbsp;SUWWWEB S.A.S</a></p>
 	</div>
 </footer>
 
