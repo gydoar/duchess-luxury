@@ -190,14 +190,41 @@ nav{
 	background-position: center center;
 	color: #ffffff;
 }
-	.cuadro--top--model div{
-		padding-top: 60px;
-	}
 	.cuadro--top--model img{
 	background-image: -webkit-linear-gradient(bottom, rgb(115,63,30) 33%, rgb(232,208,77) 67%);
 	background-image: -o-linear-gradient(bottom, rgb(115,63,30) 33%, rgb(232,208,77) 67%);
 	background-image: linear-gradient(to top, rgb(115,63,30) 33%, rgb(232,208,77) 67%);
 	padding: 2px;
+	opacity: 0.7;
+	transition: all 0.5s ease;
+	}
+	.cuadro--top--model img:hover{
+		opacity: 1;
+		transition: all 0.5s ease;
+	}
+	.portfolio{
+		padding-top: 130px;
+	}
+
+.margin__buttom{
+	margin-bottom: 40px;
+}
+	
+.btn-portfolio{
+	background-image: url(library/img/btn-portfolio.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 32px;
+	text-align: center;
+	padding-top: 7px;
+}
+	.btn-portfolio a{
+		text-decoration: none;
+		color: #ffffff;
+		font-weight: 700;
+	}
+	.btn-portfolio a:hover{
+		color: #e5a826;
 	}
 .contact__footer{
 	padding: 20px 0px;

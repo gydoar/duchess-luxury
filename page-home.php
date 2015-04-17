@@ -16,23 +16,87 @@
 			<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/btn-read.png" alt=""></a>
 		</div>
 		<div class="cuadro--top--model">
-			<div class="ten columns offset-by-one">
+			<div class="ten columns offset-by-one portfolio margin__buttom">
 				<div class="three columns">
 					<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img-scorts.png" alt=""></a>
-					<div>
+					<div class="btn-portfolio">
 						<a href="#">Aleja</a>
 					</div>
 				</div>
 				<div class="three columns">
 					<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img-scorts.png" alt=""></a>
+					<div class="btn-portfolio">
+						<a href="#">Aleja</a>
+					</div>
 				</div>
 				<div class="three columns">
 					<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img-scorts.png" alt=""></a>
+					<div class="btn-portfolio">
+						<a href="#">Aleja</a>
+					</div>
 				</div>
 				<div class="three columns">
 					<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img-scorts.png" alt=""></a>
+					<div class="btn-portfolio">
+						<a href="#">Aleja</a>
+					</div>
 				</div>
+			</div>
 
+			<!-- segunda fila -->
+			<div class="ten columns offset-by-one margin__buttom">
+				<div class="three columns">
+					<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img-scorts.png" alt=""></a>
+					<div class="btn-portfolio">
+						<a href="#">Aleja</a>
+					</div>
+				</div>
+				<div class="three columns">
+					<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img-scorts.png" alt=""></a>
+					<div class="btn-portfolio">
+						<a href="#">Aleja</a>
+					</div>
+				</div>
+				<div class="three columns">
+					<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img-scorts.png" alt=""></a>
+					<div class="btn-portfolio">
+						<a href="#">Aleja</a>
+					</div>
+				</div>
+				<div class="three columns">
+					<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img-scorts.png" alt=""></a>
+					<div class="btn-portfolio">
+						<a href="#">Aleja</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- tercera fila -->
+			<div class="ten columns offset-by-one">
+				<div class="three columns">
+					<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img-scorts.png" alt=""></a>
+					<div class="btn-portfolio">
+						<a href="#">Aleja</a>
+					</div>
+				</div>
+				<div class="three columns">
+					<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img-scorts.png" alt=""></a>
+					<div class="btn-portfolio">
+						<a href="#">Aleja</a>
+					</div>
+				</div>
+				<div class="three columns">
+					<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img-scorts.png" alt=""></a>
+					<div class="btn-portfolio">
+						<a href="#">Aleja</a>
+					</div>
+				</div>
+				<div class="three columns">
+					<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img-scorts.png" alt=""></a>
+					<div class="btn-portfolio">
+						<a href="#">Aleja</a>
+					</div>
+				</div>
 			</div>
 
 
