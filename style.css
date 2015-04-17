@@ -214,6 +214,12 @@ nav{
 .margin__buttom{
 	margin-bottom: 40px;
 }
+.margin__buttom__single{
+	margin-bottom: 20px;
+}
+.margin-top{
+	margin-top: 20px;
+}
 	
 .btn-portfolio{
 	background-image: url(library/img/btn-portfolio.png);
@@ -266,19 +272,28 @@ nav{
 		background-image: linear-gradient(to top, rgb(115,63,30) 33%, rgb(232,208,77) 67%);
 		padding: 3px;
 	}
-	.content__single h3{
+	.content__single h3:first-child,.content__single h3{
 		color: #fbb829;
 		font-weight: 700;
-		font-size: 34px;
+		font-size: 30px;
 		letter-spacing: .7px;
 		margin-bottom: 0px;
 	}
-	.content__single h3:before{
+	.content__single h3:first-child:before{
 		content: ''url(library/img/icon-izq.png);
 	}
-	.content__single h3:after{
+	.content__single h3:first-child:after{
 		content: ''url(library/img/icon-der.png);
 	}
+	.content__single li{
+		list-style: none;
+		text-align: left;
+		color: #fbb829;
+		margin-bottom: 2px;
+	}
+		.content__single li span{
+			color: #ffffff;
+		}
 .contact__footer{
 	padding: 20px 0px;
 	text-align: center;
@@ -347,7 +362,11 @@ img{
 	@media only screen and (max-width: 767px) {}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.marco-single{
+			background: none;
+		}
+	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
@@ -359,5 +378,8 @@ img{
 		}
 		.welcome p{
 			font-size: 14px;
+		}
+		.marco-single{
+			background: none;
 		}
 	}

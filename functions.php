@@ -15,24 +15,45 @@ register_nav_menus(
 	);
 
 
-
-if (class_exists('MultiPostThumbnails')) {
-
-new MultiPostThumbnails(array(
-'label' => 'Secondary Image',
-'id' => 'secondary-image',
-'post_type' => 'post'
- ) );
-
- }
 /*------------------------------------*\
     $Soporte Thumhnails
 \*------------------------------------*/
-add_theme_support('scorts-thumbnails' );
+add_theme_support('post-thumbnails' );
 add_image_size('img_1', 352, 523, true );
 
+if (class_exists('MultiPostThumbnails')) {
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Imagen 2',
+            'id' => 'secondary-image',
+            'post_type' => 'scorts'
+        )
+    );
 
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Imagen 3',
+            'id' => 'three-image',
+            'post_type' => 'scorts'
+        )
+    );
 
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Imagen 4',
+            'id' => 'four-image',
+            'post_type' => 'scorts'
+        )
+    );
+
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Imagen 5',
+            'id' => 'five-image',
+            'post_type' => 'scorts'
+        )
+    );
+}
 /*------------------------------------*\
     $Mostrar custon post type en el loop
 \*------------------------------------*/
@@ -41,7 +62,7 @@ add_filter( 'pre_get_posts', 'my_get_posts' );
 function my_get_posts( $query ) {
 
     if ( is_home() && $query->is_main_query() )
-        $query->set( 'post_type', array( 'portfolio' ) );
+        $query->set( 'post_type', array( 'scorts' ) );
 
     return $query;
 }
