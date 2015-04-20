@@ -132,7 +132,7 @@ function register_scortstaxonomies() {
 		'_builtin' 			=> false,
 		'rewrite' 			=> array('slug' => 'scortstax','with_front' => FALSE ),
 	 );
-	register_taxonomy('scortstaxonomies', $pages, $args);
+	register_taxonomy('portfoliotaxonomies', $pages, $args);
 }
 add_action('init', 'register_scortstaxonomies');
 

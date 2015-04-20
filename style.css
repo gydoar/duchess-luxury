@@ -131,7 +131,9 @@ nav{
 	text-align: center;
 	padding-top: 10px;
 }
-
+		nav ul {
+			margin: 0px;
+		}
 		nav ul li{
 			display: inline-block;
 
@@ -377,6 +379,10 @@ img{
 		.marco-single{
 			background: none;
 		}
+		.cuadro--top--model{
+			background: none;
+			text-align: center;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -392,5 +398,9 @@ img{
 		}
 		.marco-single{
 			background: none;
+		}
+		.cuadro--top--model{
+			background: none;
+			text-align: center;
 		}
 	}

@@ -37,8 +37,6 @@
 
 <nav>
 	<ul class="container">
-		<li><a href="#">&nbsp;&nbsp;Home&nbsp;</a></li>
-		<li><a href="#">&nbsp;&nbsp;Scorts&nbsp;</a></li>
-		<li><a href="#">&nbsp;&nbsp;Contact&nbsp;</a></li>
+		<?php wp_nav_menu(array('theme_location' => 'header-menu') ); ?>
 	</ul>
 </nav>
