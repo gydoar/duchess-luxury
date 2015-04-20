@@ -20,6 +20,7 @@ register_nav_menus(
 \*------------------------------------*/
 add_theme_support('post-thumbnails' );
 add_image_size('img_1', 352, 523, true );
+add_image_size('img_2', 179, 267, true );
 
 if (class_exists('MultiPostThumbnails')) {
     new MultiPostThumbnails(
