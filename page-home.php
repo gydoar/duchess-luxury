@@ -19,7 +19,7 @@
 			<div class="ten columns offset-by-one portfolio margin__buttom">
 				<!-- Bloque 1 -->
 				<?php global $wp_query;
-				$wp_query = new WP_Query("post_type=scorts&post_status=publish&posts_per_page=4");
+				$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=4");
 				while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
 
@@ -67,7 +67,7 @@
 			<div class="ten columns offset-by-one margin__buttom">
 				<!-- Bloque 2 -->
 				<?php global $wp_query;
-				$wp_query = new WP_Query("post_type=scorts&post_status=publish&posts_per_page=-1&showposts=4&offset=4");
+				$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=-1&showposts=4&offset=4");
 				while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
 
@@ -114,7 +114,7 @@
 			<div class="ten columns offset-by-one">
 				<!-- Bloque 3 -->
 				<?php global $wp_query;
-				$wp_query = new WP_Query("post_type=scorts&post_status=publish&showposts=4&offset=8");
+				$wp_query = new WP_Query("post_type=portfolio&post_status=publish&showposts=4&offset=8");
 				while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
 

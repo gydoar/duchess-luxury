@@ -27,7 +27,7 @@ if (class_exists('MultiPostThumbnails')) {
         array(
             'label' => 'Imagen 2',
             'id' => 'secondary-image',
-            'post_type' => 'scorts'
+            'post_type' => 'portfolio'
         )
     );
 
@@ -35,7 +35,7 @@ if (class_exists('MultiPostThumbnails')) {
         array(
             'label' => 'Imagen 3',
             'id' => 'three-image',
-            'post_type' => 'scorts'
+            'post_type' => 'portfolio'
         )
     );
 
@@ -43,7 +43,7 @@ if (class_exists('MultiPostThumbnails')) {
         array(
             'label' => 'Imagen 4',
             'id' => 'four-image',
-            'post_type' => 'scorts'
+            'post_type' => 'portfolio'
         )
     );
 
@@ -51,7 +51,7 @@ if (class_exists('MultiPostThumbnails')) {
         array(
             'label' => 'Imagen 5',
             'id' => 'five-image',
-            'post_type' => 'scorts'
+            'post_type' => 'portfolio'
         )
     );
 }
@@ -71,21 +71,21 @@ function my_get_posts( $query ) {
 /***
 // Habilitar soporte Custom posts
 ***/
-add_action( 'init', 'register_cpt_scorts' );
-function register_cpt_scorts() {
+add_action( 'init', 'register_cpt_portfolio' );
+function register_cpt_portfolio() {
     $labels = array(
-        'name' => _x( 'Chicas', 'scorts' ),
-        'singular_name' => _x( 'Duchess', 'scorts' ),
-        'add_new' => _x( 'Agregar', 'scorts' ),
-        'add_new_item' => _x( 'Agregar chica', 'scorts' ),
-        'edit_item' => _x( 'Editar chica', 'scorts' ),
-        'new_item' => _x( 'Nueva chica', 'scorts' ),
-        'view_item' => _x( 'Ver chica', 'scorts' ),
-        'search_items' => _x( 'Buscar chica', 'scorts' ),
-        'not_found' => _x( 'No se encontraron chicas', 'scorts' ),
-        'not_found_in_trash' => _x( 'No se encontraron en la papelera', 'scorts' ),
-        'parent_item_colon' => _x( 'Parent Portfolio:', 'scorts' ),
-        'menu_name' => _x( 'Duchess', 'scorts' ),
+        'name' => _x( 'Portfolio', 'portfolio' ),
+        'singular_name' => _x( 'Portfolio', 'portfolio' ),
+        'add_new' => _x( 'Agregar', 'portfolio' ),
+        'add_new_item' => _x( 'Agregar trabajo', 'portfolio' ),
+        'edit_item' => _x( 'Editar trabajo', 'portfolio' ),
+        'new_item' => _x( 'Nuevo trabajo', 'portfolio' ),
+        'view_item' => _x( 'Ver trabajo', 'portfolio' ),
+        'search_items' => _x( 'Buscar en Porfolio', 'portfolio' ),
+        'not_found' => _x( 'No se encontraron trabajos', 'portfolio' ),
+        'not_found_in_trash' => _x( 'No se encontraron en la papelera', 'portfolio' ),
+        'parent_item_colon' => _x( 'Parent Portfolio:', 'portfolio' ),
+        'menu_name' => _x( 'Portfolio', 'portfolio' ),
     );
     $args = array(
         'labels' => $labels,
@@ -104,45 +104,45 @@ function register_cpt_scorts() {
         'rewrite' => true,
         'capability_type' => 'post'
     );
-    register_post_type( 'scorts', $args );
+    register_post_type( 'portfolio', $args );
 }
 
 
-function register_scortstaxonomies() {
-	$labels = array(
-		'name' 					=> _x( 'Tipos', 'taxonomy general name' ),
-		'singular_name' 		=> _x( 'Tipo', 'taxonomy singular name' ),
-		'add_new' 				=> _x( 'Agregar tipo', 'tipo'),
-		'add_new_item' 			=> __( 'Agregar tipo' ),
-		'edit_item' 			=> __( 'Editar tipo' ),
-		'new_item' 				=> __( 'Nuevo tipo' ),
-		'view_item' 			=> __( 'Ver tipo' ),
-		'search_items' 			=> __( 'Buscar tipos' ),
-		'not_found' 			=> __( 'No encontrado' ),
-		'not_found_in_trash' 	=> __( 'No encotrado' ),
-	);
-	$pages = array('scorts');
-	$args = array(
-		'labels' 			=> $labels,
-		'singular_label' 	=> __('tipo'),
-		'public' 			=> true,
-		'show_ui' 			=> true,
-		'hierarchical' 		=> true,
-		'show_tagcloud' 	=> false,
-		'show_in_nav_menus' => true,
-		'_builtin' 			=> false,
-		'rewrite' 			=> array('slug' => 'scortstax','with_front' => FALSE ),
-	 );
-	register_taxonomy('portfoliotaxonomies', $pages, $args);
+function register_portfoliotaxonomies() {
+    $labels = array(
+        'name'                  => _x( 'tipos', 'taxonomy general name' ),
+        'singular_name'         => _x( 'tipo', 'taxonomy singular name' ),
+        'add_new'               => _x( 'Agregar tipo', 'tipo'),
+        'add_new_item'          => __( 'Agregar tipo' ),
+        'edit_item'             => __( 'Editar tipo' ),
+        'new_item'              => __( 'Nuevo tipo' ),
+        'view_item'             => __( 'Ver tipo' ),
+        'search_items'          => __( 'Buscar tipos' ),
+        'not_found'             => __( 'No encontrado' ),
+        'not_found_in_trash'    => __( 'No encotrado' ),
+    );
+    $pages = array('portfolio');
+    $args = array(
+        'labels'            => $labels,
+        'singular_label'    => __('tipo'),
+        'public'            => true,
+        'show_ui'           => true,
+        'hierarchical'      => true,
+        'show_tagcloud'     => false,
+        'show_in_nav_menus' => true,
+        '_builtin'          => false,
+        'rewrite'           => array('slug' => 'porfoliotax','with_front' => FALSE ),
+     );
+    register_taxonomy('portfoliotaxonomies', $pages, $args);
 }
-add_action('init', 'register_scortstaxonomies');
+add_action('init', 'register_portfoliotaxonomies');
 
 
 /* Metabox */
 $meta_box = array(
- 'id' => 'metabox-scorts',
+ 'id' => 'metabox-portfolio',
  'title' => 'Información de scorts',
- 'page' => 'scorts',
+ 'page' => 'portfolio',
  'context' => 'normal',
  'priority' => 'high',
  'fields' => array(
