@@ -307,6 +307,14 @@ nav{
 			text-decoration: none;
 			list-style: none;
 		}
+.marco__contact{
+	margin: 30px 0px;
+	background: url(library/img/marco-contact.png);
+	background-repeat: no-repeat;
+	min-height: 372px;
+	background-position: center center;
+	color: #ffffff;
+}
 .contact__footer{
 	padding: 20px 0px;
 	text-align: center;
