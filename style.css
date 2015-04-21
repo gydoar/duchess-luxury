@@ -308,12 +308,56 @@ nav{
 			list-style: none;
 		}
 .marco__contact{
+	text-align: center;
 	margin: 30px 0px;
 	background: url(library/img/marco-contact.png);
 	background-repeat: no-repeat;
 	min-height: 372px;
 	background-position: center center;
 	color: #ffffff;
+}
+	.marco__contact h3{
+		color: #fcba2f;
+		font-weight: 700;
+		font-size: 30px;
+		letter-spacing: 1px;
+	}
+.contet_marc_contac{
+	padding-top: 50px;
+	color: #fcba2f;
+}
+	.contet_marc_contac input{
+		background: #000000;
+		border-radius: 0px;
+		border: 1px solid #fcba2f;
+		width: 250px;
+		margin-bottom: 0px;
+	}
+	.contet_marc_contac textarea{
+		background: #000000;
+		border-radius: 0px;
+		border: 1px solid #fcba2f;
+		width: 250px;
+		margin-bottom: 0px;
+		vertical-align: top;
+		height: 100px;
+	}
+	.contet_marc_contac textarea{
+
+	}
+	.contet_marc_contac input:active, .contet_marc_contac input:focus{
+		background-color: #292929;
+		border: 1px solid #fcba2f;
+	}
+
+.align-right{
+	text-align: right;
+}
+.align-left{
+	text-align: left;
+}
+.align-center{
+	text-align: center;
 }
 .contact__footer{
 	padding: 20px 0px;
