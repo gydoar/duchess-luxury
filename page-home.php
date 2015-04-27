@@ -164,7 +164,7 @@
 
 	<div class="container">
 		<div class="btn-see-more">
-			<a href="#">SEE MORE</a>
+			<a href="<?php echo home_url('/porfoliotax/scorts' ); ?>">SEE MORE</a>
 		</div>
 	</div>
 

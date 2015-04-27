@@ -11,7 +11,7 @@
 			<div class="ten columns offset-by-one portfolio margin__buttom">
 				<!-- Bloque 1 -->
 				<?php global $wp_query;
-				$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=-1");
+				$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=-1&orderby=rand");
 				while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
 

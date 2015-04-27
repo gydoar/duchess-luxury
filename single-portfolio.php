@@ -160,16 +160,13 @@
 					<div class="twelve columns thumb_single">
 						
 								
-								<a href="<?php echo wp_get_attachment_url($thumbID); ?>">
-									<?php if (class_exists('MultiPostThumbnails')) :
-									    MultiPostThumbnails::the_post_thumbnail(
-									        get_post_type(),
-									        'secondary-image',
-									        set_post_thumbnail_size( 155, 215, true )
-									    );
-									endif; ?>
-								</a>
-								
+								<?php if (class_exists('MultiPostThumbnails')) :
+								    MultiPostThumbnails::the_post_thumbnail(
+								        get_post_type(),
+								        'secondary-image',
+								        set_post_thumbnail_size( 155, 215, true )
+								    );
+								endif; ?>
 								
 						
 
