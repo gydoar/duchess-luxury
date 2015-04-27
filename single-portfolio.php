@@ -212,7 +212,7 @@
 			<!-- Buttom back -->
 			<div class="container">
 				<div class="btn-see-more">
-					<a href="#">BACK</a>
+					<a href="<?php echo home_url('/home' ); ?>">BACK</a>
 				</div>
 			</div>
 		</div>
