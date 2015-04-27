@@ -159,14 +159,17 @@
 					<!-- galeria de 4 imagenes -->
 					<div class="twelve columns thumb_single">
 						
-							
-								<?php if (class_exists('MultiPostThumbnails')) :
-								    MultiPostThumbnails::the_post_thumbnail(
-								        get_post_type(),
-								        'secondary-image',
-								        set_post_thumbnail_size( 155, 215, true )
-								    );
-								endif; ?>
+								
+								<a href="<?php the_permalink(); ?>">
+									<?php if (class_exists('MultiPostThumbnails')) :
+									    MultiPostThumbnails::the_post_thumbnail(
+									        get_post_type(),
+									        'secondary-image',
+									        set_post_thumbnail_size( 155, 215, true )
+									    );
+									endif; ?>
+								</a>
+								
 								
 						
 
@@ -212,7 +215,7 @@
 			<!-- Buttom back -->
 			<div class="container">
 				<div class="btn-see-more">
-					<a href="<?php echo home_url('/home' ); ?>">BACK</a>
+					<a href="<?php echo home_url('/porfoliotax/scorts/' ); ?>">BACK</a>
 				</div>
 			</div>
 		</div>
