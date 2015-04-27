@@ -43,14 +43,13 @@
 						$over_8 = get_post_meta(get_the_id(),'over_8_scorts',TRUE);
 
 					 ?>
-					
+			
 						<div class="three columns margin__buttom">
 							<a href="<?php the_permalink(); ?>"><?php if (has_post_thumbnail()) {the_post_thumbnail('img_2');} ?></a>
 							<div class="btn-portfolio">
 								<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 							</div>
 						</div>
-						
 
 				<?php endwhile; ?>
 				
