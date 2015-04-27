@@ -160,7 +160,7 @@
 					<div class="twelve columns thumb_single">
 						
 								
-								<a href="<?php the_permalink(); ?>">
+								<a href="<?php echo wp_get_attachment_url($thumbID); ?>">
 									<?php if (class_exists('MultiPostThumbnails')) :
 									    MultiPostThumbnails::the_post_thumbnail(
 									        get_post_type(),
