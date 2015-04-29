@@ -63,7 +63,7 @@ add_filter( 'pre_get_posts', 'my_get_posts' );
 function my_get_posts( $query ) {
 
     if ( is_home() && $query->is_main_query() )
-        $query->set( 'post_type', array( 'scorts' ) );
+        $query->set( 'post_type', array( 'portfolio' ) );
 
     return $query;
 }

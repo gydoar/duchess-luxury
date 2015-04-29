@@ -18,8 +18,10 @@
 		<div class="cuadro--top--model">
 			<div class="ten columns offset-by-one portfolio margin__buttom">
 				<!-- Bloque 1 -->
+				<?php rewind_posts(); ?>
 				<?php global $wp_query;
-				$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=4");
+				$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=4&cat=5");
+				
 				while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
 
@@ -66,8 +68,10 @@
 			<!-- segunda fila -->
 			<div class="ten columns offset-by-one margin__buttom">
 				<!-- Bloque 2 -->
+				<?php rewind_posts(); ?>
 				<?php global $wp_query;
-				$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=-1&showposts=4&offset=4");
+				$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=8&showposts=4&offset=4");
+				
 				while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
 
@@ -113,8 +117,10 @@
 			<!-- tercera fila -->
 			<div class="ten columns offset-by-one">
 				<!-- Bloque 3 -->
+				<?php rewind_posts(); ?>
 				<?php global $wp_query;
-				$wp_query = new WP_Query("post_type=portfolio&post_status=publish&showposts=4&offset=8");
+				$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=-1&showposts=4&offset=8");
+
 				while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
 
