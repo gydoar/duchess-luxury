@@ -56,7 +56,7 @@
 			</div>
 
 			<div class="ornament-footer">
-				<img width="932" src="<?php bloginfo('template_url' ); ?>/library/img/ornament-footer.png" alt="">
+				<img width="800" src="<?php bloginfo('template_url' ); ?>/library/img/ornament-footer.png" alt="">
 			</div>
 		</div>
 	</div>
