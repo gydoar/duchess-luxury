@@ -5,7 +5,9 @@
 	<div class="line__oro_2"></div>
 
 	<div class="container">
-		
+		<div class="ornament-footer">
+			<img width="700" src="<?php bloginfo('template_url' ); ?>/library/img/ornament-header.png" alt="">
+		</div>
 		<div class="cuadro--top--model--portfolio">
 			
 			<div class="ten columns offset-by-one portfolio margin__buttom">
@@ -54,10 +56,9 @@
 				<?php endwhile; ?>
 				
 			</div>
-
-			<div class="ornament-footer">
-				<img width="700" src="<?php bloginfo('template_url' ); ?>/library/img/ornament-footer.png" alt="">
-			</div>
+		</div>
+		<div class="ornament-footer">
+			<img width="700" src="<?php bloginfo('template_url' ); ?>/library/img/ornament-footer.png" alt="">
 		</div>
 	</div>
 
