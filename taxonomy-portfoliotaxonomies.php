@@ -6,7 +6,7 @@
 
 	<div class="container">
 		
-		<div class="cuadro--top--model">
+		<div class="">
 			
 			<div class="ten columns offset-by-one portfolio margin__buttom">
 				<!-- Bloque 1 -->
@@ -55,7 +55,9 @@
 				
 			</div>
 
-		
+			<div class="ornament-footer">
+				<img width="932" src="<?php bloginfo('template_url' ); ?>/library/img/ornament-footer.png" alt="">
+			</div>
 		</div>
 	</div>
 

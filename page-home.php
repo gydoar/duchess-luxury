@@ -20,7 +20,7 @@
 				<!-- Bloque 1 -->
 				<?php rewind_posts(); ?>
 				<?php global $wp_query;
-				$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=4&cat=5");
+				$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=4");
 				
 				while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 

@@ -217,6 +217,11 @@ nav{
 	.portfolio{
 		padding-top: 130px;
 	}
+		.portfolio div{
+			text-align: center;
+			margin-left: 0px;
+			margin-right: 20px;
+		}
 
 .margin__buttom{
 	margin-bottom: 40px;
@@ -259,7 +264,22 @@ nav{
 		font-size: 18px;
 		font-weight: 700;
 	}
-
+.btn-contact{
+	text-align: right;
+}
+.btn-contact a{
+	text-decoration: none;
+	color: #000000;
+	background-color: #FBB829;
+	padding: 5px 20px;
+	border-radius: 5px;
+		-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+				-o-border-radius: 5px;
+}
+	.btn-contact a:hover{
+		background: rgba(251,184,41,0.7);
+	}
 .marco-single{
 	background: url(library/img/marco-scorts.png);
 	background-repeat: no-repeat;
@@ -312,6 +332,9 @@ nav{
 			text-decoration: none;
 			list-style: none;
 		}
+.ornament-footer{
+	text-align: center;
+}
 .marco__contact{
 	text-align: center;
 	margin: 30px 0px;

@@ -155,6 +155,9 @@
 								</div>
 							</div>
 						</div>
+						<div class="btn-contact">
+							<a href="<?php echo home_url('/contact' ); ?>">CONTACT</a>
+						</div>
 					</div>
 					<!-- galeria de 4 imagenes -->
 					<div class="twelve columns thumb_single">
