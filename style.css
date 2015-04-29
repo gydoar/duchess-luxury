@@ -196,7 +196,7 @@ nav{
 	background-position: center center;
 	color: #ffffff;
 }
-	.cuadro--top--model img{
+	.cuadro--top--model img, .cuadro--top--model--portfolio img{
 	background-image: -webkit-linear-gradient(bottom, rgb(115,63,30) 33%, rgb(232,208,77) 67%);
 	background-image: -o-linear-gradient(bottom, rgb(115,63,30) 33%, rgb(232,208,77) 67%);
 	background-image: linear-gradient(to top, rgb(115,63,30) 33%, rgb(232,208,77) 67%);
@@ -207,7 +207,7 @@ nav{
 			-moz-transition: all 0.5s ease;
 				-o-transition: all 0.5s ease;
 	}
-	.cuadro--top--model img:hover{
+	.cuadro--top--model img:hover, .cuadro--top--model--portfolio img:hover{
 		opacity: 1;
 		transition: all 0.5s ease;
 		-webkit-transition: all 0.5s ease;
@@ -216,9 +216,9 @@ nav{
 	}
 	.portfolio{
 		padding-top: 130px;
+		margin-bottom: 0px;
 	}
 		.portfolio div{
-			margin-bottom: 0px;
 			text-align: center;
 			margin-left: 0px;
 			margin-right: 20px;
