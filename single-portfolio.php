@@ -31,6 +31,8 @@
 		$hour_24 = get_post_meta(get_the_id(),'24_hour_scorts',TRUE);
 		$over_4 = get_post_meta(get_the_id(),'over_4_scorts',TRUE);
 		$over_8 = get_post_meta(get_the_id(),'over_8_scorts',TRUE);
+		$language = get_post_meta(get_the_id(),'language',TRUE);
+		$country = get_post_meta(get_the_id(),'country',TRUE);
 
 	 ?>
 		
@@ -56,6 +58,7 @@
 										<li>Oral Sex(t):</li>
 										<li>Anal sex:</li>
 										<li>French:</li>
+										<li>Country:</li>
 									</div>
 									<div class="five columns">
 										<li><span><?php echo $strai;?></span></li>
@@ -64,6 +67,7 @@
 										<li><span><?php echo $oral_sex_t;?></span></li>
 										<li><span><?php echo $anal;?></span></li>
 										<li><span><?php echo $french;?></span></li>
+										<li><span><?php echo $country;?></span></li>
 									</div>
 								</div>
 							</div>
@@ -75,6 +79,7 @@
 										<li>Sex toys:</li>
 										<li>Dinner date:</li>
 										<li>Travelling:</li>
+										<li>Language:</li>
 									</div>
 									<div class="six columns">
 										<li><span><?php echo $fetish;?></span></li>
@@ -82,6 +87,7 @@
 										<li><span><?php echo $sex_toys ?></span></li>
 										<li><span><?php echo $dinner;?></span></li>
 										<li><span><?php echo $travelling;?></span></li>
+										<li><span><?php echo $language;?></span></li>
 									</div>
 								</div>
 							</div>

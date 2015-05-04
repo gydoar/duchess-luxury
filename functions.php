@@ -146,60 +146,6 @@ $meta_box = array(
  'context' => 'normal',
  'priority' => 'high',
  'fields' => array(
- array(
- 'name' => 'Age:',
- 'desc' => '',
- 'id' => 'age_scorts',
- 'type' => 'text'
- ),
- array(
- 'name' => 'Eyes:',
- 'desc' => '',
- 'id' => 'eyes_scorts',
- 'type' => 'text',
- 'std' => ''
- ),
- array(
- 'name' => 'Height:',
- 'desc' => '',
- 'id' => 'height_scorts',
- 'type' => 'text'
- ),
- array(
- 'name' => 'Measurements:',
- 'desc' => '',
- 'id' => 'measu_scorts',
- 'type' => 'text',
- 'std' => ''
- ),
- array(
- 'name' => 'Weight:',
- 'desc' => '',
- 'id' => 'weight_scorts',
- 'type' => 'text',
- 'std' => ''
- ),
- array(
- 'name' => 'Languague Skills:',
- 'desc' => '',
- 'id' => 'lang_scorts',
- 'type' => 'text',
- 'std' => ''
- ),
-  array(
- 'name' => 'Hair:',
- 'desc' => '',
- 'id' => 'hair_scorts',
- 'type' => 'text',
- 'std' => ''
- ),
- array(
- 'name' => 'Orientation:',
- 'desc' => '',
- 'id' => 'orient_scorts',
- 'type' => 'text',
- 'std' => ''
- ),
   array(
  'name' => 'Straight sex:',
  'desc' => '',
@@ -277,38 +223,17 @@ $meta_box = array(
  'type' => 'text',
  'std' => ''
  ),
- array(
- 'name' => '1 hour:',
- 'desc' => '',
- 'id' => 'one_hour_scorts',
- 'type' => 'text',
- 'std' => ''
- ),
- array(
- 'name' => '2 hour:',
- 'desc' => '',
- 'id' => 'two_hour_scorts',
- 'type' => 'text',
- 'std' => ''
- ),
- array(
- 'name' => '24 hour:',
- 'desc' => '',
- 'id' => '24_hour_scorts',
- 'type' => 'text',
- 'std' => ''
- ),
   array(
- 'name' => 'Overnight (4 hours):',
+ 'name' => 'Language:',
  'desc' => '',
- 'id' => 'over_4_scorts',
+ 'id' => 'language',
  'type' => 'text',
  'std' => ''
  ),
- array(
- 'name' => 'Overdate (8 hours):',
+   array(
+ 'name' => 'Country:',
  'desc' => '',
- 'id' => 'over_8_scorts',
+ 'id' => 'country',
  'type' => 'text',
  'std' => ''
  ),
