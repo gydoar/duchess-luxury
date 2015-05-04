@@ -31,7 +31,8 @@
 <body>
 
 	<header>
-		<h1 class="container"><a href="<?php echo home_url('/'); ?>"><img width="50%" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt="<?php bloginfo('name' ); ?>"></a></h1>
+
+		<h1 class="container"><a href="<?php echo home_url('/'); ?>"><img width="70%" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt="<?php bloginfo('name' ); ?>"></a></h1>
 
 	</header>
 

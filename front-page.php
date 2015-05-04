@@ -17,7 +17,7 @@
 		</div>
 
 		<div class="warning__btn container">
-			<a class="btn--oro" href="<?php echo home_url('/home' ); ?>">ACEPT</a>
-			<a class="btn--oro" href="#">NOT ACEPT</a>
+			<a class="btn--oro" href="<?php echo home_url('/home' ); ?>">ACCEPT</a>
+			<a class="btn--oro" href="#">NOT ACCEPT</a>
 		</div>
 	</div>

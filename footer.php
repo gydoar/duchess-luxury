@@ -3,7 +3,7 @@
 	<div class="contact__footer">
 		<div class="container">
 			<h3>(+1) 3134401185 - 3134401185</h3>
-			<a href="mailto:scorts@duchessluxuryscorts.com">scorts@duchessluxuryscorts.com</a>
+			<a href="mailto:escorts@duchessluxuryescorts.com">escorts@duchessluxuryescorts.com</a>
 		</div>
 		
 	</div>

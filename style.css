@@ -28,6 +28,13 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 @import url(library/css/skeleton.css);
 
 
+@font-face {
+  font-family: 'burlington';
+  src: url('library/fonts/SFBurlingtonScript.eot?#iefix') format('embedded-opentype'),  url('library/fonts/SFBurlingtonScript.woff') format('woff'), url('library/fonts/SFBurlingtonScript.ttf')  format('truetype'), url('library/fonts/SFBurlingtonScript.svg#SFBurlingtonScript') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 
@@ -160,10 +167,10 @@ nav{
 
 .banner__1{
 	position: relative;
-	background-image: url(library/img/bg.png);
+	background-image: url(library/img/banner.jpg);
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 484px;
+	min-height: 481px;
 	width: 100%;
 	background-size: 100%;
 		-webkit-background-size: 100%;
@@ -182,6 +189,14 @@ nav{
 		font-weight: 400;
 		font-size: 24px;
 		margin-bottom: 0px;
+	}
+	.welcome span:last-child{
+		font-size: 40px;
+	}
+	.welcome span{
+		font-weight: 600;
+		letter-spacing: 2px;
+		font-family: 'burlington' !important;
 	}
 	.ornament{
 		background-image: url(library/img/ornament.png);
@@ -215,8 +230,8 @@ nav{
 				-o-transition: all 0.5s ease;
 	}
 	.portfolio{
-		padding-top: 130px;
 		margin-bottom: 0px;
+		margin-top: 130px;
 	}
 		.portfolio div{
 			text-align: center;
@@ -335,6 +350,7 @@ nav{
 		}
 .ornament-footer{
 	text-align: center;
+	margin-bottom: -130px;
 }
 .marco__contact{
 	text-align: center;
@@ -404,7 +420,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbb829', end
 }
 	.contact__footer h3{
 		font-weight: 700;
-		font-size: 20px;
+		font-size: 24px;
 		letter-spacing: 2px;
 		margin: 0px;
 	}

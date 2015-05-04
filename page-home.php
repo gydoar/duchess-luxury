@@ -8,10 +8,10 @@
 
 	<div class="container">
 		<div class="welcome">
-			<h3>Welcome to Duchess Luxury Scorts</h3>
+			<h3>Welcome to <span>Duchess Luxury Escorts</span></h3>
 			<div><img src="<?php bloginfo('template_url' ); ?>/library/img/orn-1.png" alt=""></div>
-			<p>DUCHESS LUXURY SCORTS Is a agency based Top-quality high class Service for private capricious <br>of gentlemen who demand the very best things in life. </p>
-			<p>Our women First Class come from all Europe, London, American, Russian, Asia. Escort Agency <br>around the world offer the best girls , they are open-minded, beautiful, fun loving, charming, with <br>brains, well educated, perfect manners and much more what every men have deserve.</p>
+			<p><span>DUCHESS LUXURY ESCORTS</span> is an agency specializing in the service for the more discerning  gentleman.<br>Our array of beautiful women come from Latin America, America, Europe, Asia and Australia.</p>
+			<p>The ladies are all extremely well educated and have impeccable manners they are perfect for a wonderful dinner or just a great party.<br>The ladies are always discreet.</p>
 
 			<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/btn-read.png" alt=""></a>
 		</div>

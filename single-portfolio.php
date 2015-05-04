@@ -41,42 +41,6 @@
 						<?php if (has_post_thumbnail()) {the_post_thumbnail('scorts-thumbnails');} ?>
 					</div>
 					<div class="six columns margin-top">
-						<h3><?php the_title(); ?></h3>
-						<div class="line__oro_3"></div>
-						<div class="row margin__buttom__single">
-							<div class="five columns">
-								<div class="row">
-									<div class="six columns">
-										<li>Age:</li>
-										<li>Height:</li>
-										<li>Weight:</li>
-										<li>Hair</li>
-									</div>
-									<div class="six columns">
-										<li><span><?php echo $age;?> y.o</span></li>
-										<li><span><?php echo $height;?></span></li>
-										<li><span><?php echo $weight;?></span></li>
-										<li><span><?php echo $hair;?></span></li>
-									</div>
-								</div>
-							</div>
-							<div class="seven columns">
-								<div class="row">
-									<div class="six columns">
-										<li>Eyes:</li>
-										<li>Measurements:</li>
-										<li>Language skills:</li>
-										<li>Orientation:</li>
-									</div>
-									<div class="six columns">
-										<li><span><?php echo $eyes;?></span></li>
-										<li><span><?php echo $measu;?></span></li>
-										<li><span><?php echo $lang;?></span></li>
-										<li><span><?php echo $orient;?></span></li>
-									</div>
-								</div>
-							</div>
-						</div>
 						
 						<!-- Bloque 2 -->
 						<h3><?php the_title(); ?> services</h3>
@@ -123,38 +87,6 @@
 							</div>
 						</div>
 
-						<!-- Bloque 3 -->
-						<h3><?php the_title(); ?> rates</h3>
-						<div class="line__oro_3"></div>
-
-						<div class="row">
-							<div class="five columns">
-								<div class="row">
-									<div class="seven columns">
-										<li>1 Hour:</li>
-										<li>2 Hours:</li>
-										<li>24 Hours:</li>
-									</div>
-									<div class="five columns">
-										<li><span><?php echo $one_hour;?></span></li>
-										<li><span><?php echo $two_hour;?></span></li>
-										<li><span><?php echo $hour_24;?></span></li>
-									</div>
-								</div>
-							</div>
-							<div class="seven columns">
-								<div class="row">
-									<div class="six columns">
-										<li>Overnight (4):</li>
-										<li>Overdate (8):</li>
-									</div>
-									<div class="six columns">
-										<li><span><?php echo $over_4;?></span></li>
-										<li><span><?php echo $over_8;?></span></li>
-									</div>
-								</div>
-							</div>
-						</div>
 						<div class="btn-contact">
 							<a href="<?php echo home_url('/contact' ); ?>">CONTACT</a>
 						</div>
